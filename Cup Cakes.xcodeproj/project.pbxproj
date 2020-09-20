@@ -10,6 +10,9 @@
 		1D73D10F2517B771003FA228 /* Codable-Published.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D73D10E2517B771003FA228 /* Codable-Published.swift */; };
 		1D73D1112517BDDE003FA228 /* ItunesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D73D1102517BDDE003FA228 /* ItunesView.swift */; };
 		1D73D1132517BE98003FA228 /* FormValidationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D73D1122517BE98003FA228 /* FormValidationView.swift */; };
+		1D73D1152517C240003FA228 /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D73D1142517C240003FA228 /* Order.swift */; };
+		1D73D1172517C8BC003FA228 /* AddressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D73D1162517C8BC003FA228 /* AddressView.swift */; };
+		1D73D1192517C9BC003FA228 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D73D1182517C9BC003FA228 /* CheckoutView.swift */; };
 		1D85308725168E7C009E6EBE /* Cup_CakesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D85308625168E7C009E6EBE /* Cup_CakesApp.swift */; };
 		1D85308925168E7C009E6EBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D85308825168E7C009E6EBE /* ContentView.swift */; };
 		1D85308B25168E7D009E6EBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D85308A25168E7D009E6EBE /* Assets.xcassets */; };
@@ -20,6 +23,9 @@
 		1D73D10E2517B771003FA228 /* Codable-Published.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Codable-Published.swift"; sourceTree = "<group>"; };
 		1D73D1102517BDDE003FA228 /* ItunesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItunesView.swift; sourceTree = "<group>"; };
 		1D73D1122517BE98003FA228 /* FormValidationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormValidationView.swift; sourceTree = "<group>"; };
+		1D73D1142517C240003FA228 /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		1D73D1162517C8BC003FA228 /* AddressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressView.swift; sourceTree = "<group>"; };
+		1D73D1182517C9BC003FA228 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		1D85308325168E7C009E6EBE /* Cup Cakes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Cup Cakes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D85308625168E7C009E6EBE /* Cup_CakesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cup_CakesApp.swift; sourceTree = "<group>"; };
 		1D85308825168E7C009E6EBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +67,9 @@
 				1D85308625168E7C009E6EBE /* Cup_CakesApp.swift */,
 				1D73D1102517BDDE003FA228 /* ItunesView.swift */,
 				1D85308825168E7C009E6EBE /* ContentView.swift */,
+				1D73D1162517C8BC003FA228 /* AddressView.swift */,
+				1D73D1182517C9BC003FA228 /* CheckoutView.swift */,
+				1D73D1142517C240003FA228 /* Order.swift */,
 				1D73D1122517BE98003FA228 /* FormValidationView.swift */,
 				1D73D10E2517B771003FA228 /* Codable-Published.swift */,
 				1D85308A25168E7D009E6EBE /* Assets.xcassets */,
@@ -147,10 +156,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D73D1172517C8BC003FA228 /* AddressView.swift in Sources */,
+				1D73D1152517C240003FA228 /* Order.swift in Sources */,
 				1D85308925168E7C009E6EBE /* ContentView.swift in Sources */,
 				1D85308725168E7C009E6EBE /* Cup_CakesApp.swift in Sources */,
 				1D73D1112517BDDE003FA228 /* ItunesView.swift in Sources */,
 				1D73D10F2517B771003FA228 /* Codable-Published.swift in Sources */,
+				1D73D1192517C9BC003FA228 /* CheckoutView.swift in Sources */,
 				1D73D1132517BE98003FA228 /* FormValidationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
